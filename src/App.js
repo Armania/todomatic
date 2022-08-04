@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import { hot } from 'react-hot-loader';
 import { nanoid } from "nanoid";
 import Todo from "./components/Todo";
 import Form from "./components/Form";
@@ -108,4 +109,5 @@ useEffect(() => {
   );
 }
 
+// export default hot(module)(App);
 export default App;
